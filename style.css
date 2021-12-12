@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero {
+    margin-bottom: 100px;
+}
+
+.header {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 123px;
+    /* justify-content: space-between; */
+}
+
+.header-logo {
+    margin-right: 100px;
+
+}
+
+.hero-nav {
+    margin-right: 563px
+}
+
+.hero-list {
+    display: flex;
+    list-style-type: none
+}
+
+.hero-list-item {
+    margin-right: 20px;
+
+}
+
+.nav-list-links {
+    text-decoration: none;
+    color: #25202F;
+}
+
+.header-button {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
+    border-radius: 50%;
+}
+
+/* ------------------------------------------------------------ */
+.user-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-left {
+    margin-right: 141px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-parag {
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #25202F;
+}
+
+/* ----------------main-------------------------------------------- */
+.section-services {
+    margin-bottom: 150px;
+}
+
+.services-div-top {}
+
+.span-services {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+    margin-bottom: 10px;
+}
+
+.services-line {
+    width: 50px;
+    height: 1px;
+    left: 165px;
+    top: 802px;
+    background: #8643DC;
+    margin-bottom: 15px;
+}
+
+.services-title {
+    width: 246px;
+    height: 96px;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.services-div-bottom {}
+
+.services-list {
+    display: flex;
+    list-style: none;
+}
+
+.services-list-item {
+    margin-right: 30px;
+}
+
+.services-item-img {
+    display: flex;
+    align-items: center;
+}
+
+.services-icon {
+    margin-right: 20px;
+    margin-bottom: 22px;
+}
+
+.icon-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+
+.icon-paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #47444E;
+}
+
+/* --------------------------------------------- */
+.section-portfolio {}
+
+.portfolio-top {}
+
+.portfolio-top-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-span {
+    width: 70px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+    margin-bottom: 10px;
+}
+
+.portfolio-line {
+    width: 50px;
+    height: 1px;
+    left: 165px;
+    top: 1352px;
+    background: #8643DC;
+    margin-bottom: 15px;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    width: 204px;
+    margin-bottom: 30px;
+}
+
+.portfolio-top-right {
+    align-items: center;
+}
+
+.portfolio-paragraph {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    margin-right: 13px;
+}
+
+.portfolio-bottom {
+    margin-bottom: 168px;
+}
+
+.portfolio-bottom-list {
+    list-style-type: none;
+    display: flex;
+    border-radius: 10px;
+    /* margin: 0px 30px; */
+    justify-content: space-between;
+}
+
+/* ------------------------ */
+.client {
+    margin-bottom: 150px;
+}
+
+.client-top-span {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+    margin-bottom: 10px;
+}
+
+.client-line {
+    width: 50px;
+    height: 2px;
+    background: #8643DC;
+    margin-bottom: 15px;
+}
+
+.client-title {
+    width: 150px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    margin-bottom: 45px;
+}
+
+.client-bottom-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-list-item {
+    background: #FFF7FA;
+    border: 1px solid #FFE7F0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* ---------------------------------- */
+.section-Testimonials {
+    margin-bottom: 167px;
+}
+
+.testimonials-top {
+    margin-bottom: 30px;
+}
+
+.testimonials-top-span {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+    margin-bottom: 10px;
+}
+
+.testimonials-line {
+    width: 50px;
+    height: 1px;
+    background: #8643DC;
+    margin-bottom: 15px;
+}
+
+.testimonials-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    width: 217px;
+}
+
+.testimonials-list {
+    list-style: none;
+}
+
+.testimonials-poragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #636066;
+}
+
+.oposite-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-img {
+    text-align: center;
+}
+
+.section-blog {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.blog-span {
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+    margin-bottom: 10px;
+}
+
+.blog-line {
+    width: 50px;
+    height: 2px;
+    background: #8643DC;
+    margin-bottom: 15px;
+}
+
+.blog-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    width: 165px;
+}
+
+.blog-div-between {
+    margin-left: 25px;
+}
+
+.between-img {
+    margin-bottom: 20px;
+}
+
+.between-span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #8643DC;
+    margin-bottom: 10px;
+}
+
+.between-paragraph {
+    width: 350px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.blog-right-list {
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+
+.blog-span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 2px;
+}
+
+.blog-paragraph {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.friends-section {
+    text-align: center;
+}
+
+.friends-title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #21232D;
+}
+
+.friend-images {
+    margin: 0px 20px;
+}
